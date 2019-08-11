@@ -1,0 +1,201 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%; 
+	max-height: 100%; 
+	font-family:Sans-serif;
+	line-height: 1.5em;
+}
+		
+#nav{
+	position: absolute;
+	top: 0;
+	bottom: 0; 
+	left: 0;
+	width: 350px; /* Width of navigation frame */
+	height: 100%;
+	overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+	background: #76B3FA;
+}
+
+main{
+	position: fixed;
+	top: 0; 
+	left: 350px; /* Set this to the width of the navigation frame */
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	background: #616D7E;
+}
+
+.innertube{
+	margin: 15px; /* Provides padding for the content */
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	
+nav ul a {
+	color: darkgreen;
+	text-decoration: none;
+}
+/*IE6 fix*/
+* html body{
+	padding: 0 0 0 230px; /* Set the last value to the width of the navigation frame */
+}
+	
+* html main{ 
+	height: 100%; 
+	width: 100%; 
+}
+	
+.example_a {
+	font-family: courier;
+	background: #76B3FA;
+	padding: 10px 40px ;
+	color: #fff;
+	font-size: 1.00em;
+	margin: 0 35px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	width:100px;
+	height:20px;
+}
+
+.button_cont {
+	padding: 10px ;
+}
+	
+.example_a:hover {
+	background: #434343;
+	width:100px;
+	height:20px;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+.button-group{
+	padding-top:10px 0px 40px;
+}
+
+.profile_pic{
+	height:150px;
+	width:150px;
+	border-radius:200px;	
+}
+
+.image{
+	padding:40px 80px;
+}
+
+.heading{
+	padding-top :90px ;
+	padding-left : 30px;
+}
+
+.heading p{
+	text-indent: 50px;
+	color:#38ACEC;
+	font-family:Times, Times New Roman, serif;
+	font-size:2.5em;
+	line-height:1em;
+}
+
+.content{
+	padding-top :30px ;
+	padding-left : 120px;
+	width:800px;
+}
+
+.content p{
+	text-indent: 70px;
+	color:#E5E4E2;
+	font-family:Times, Times New Roman, serif;
+	font-size:1.3em;
+	line-height:1.5em;
+	
+}
+
+.logo{
+	height:30px;
+	width:30px;
+	padding-right:10px;
+}
+
+.socials{
+	padding-top:40px;
+}
+
+.content2{
+	width:800px;
+	padding-top:15px;
+}
+
+.institute{
+	color:#659EC7;
+	font-family:Times, Times New Roman, serif;
+	font-size:1.6em;
+	line-height: 0.5;
+	padding-left : 120px;
+	font-weight:bold;
+}
+
+.course{
+	color:#98AFCF;
+	font-family:Times, Times New Roman, serif;
+	font-size:1.4em;
+	line-height: 0.5;
+	padding-left : 120px;
+}
+
+.content2 ul{
+	padding:20px 10px;
+	color:#E5E4E2;
+	font-family:Times, Times New Roman, serif;
+	font-size:1.2em;
+	line-height:1.5em;
+	padding-left : 180px;
+}
+
+.content2 ul li{
+	color:#E5E4E2;
+	padding:3px 10px;
+}
+
+.content2 ul a{
+	color:#E5E4E2;
+	text-decoration: none;
+}
+
+.name{
+	color:#fff;
+	font-family: courier;
+	font-size: 1.2em;
+	font-weight:bold;
+	position:relative; 
+	top:-45px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
