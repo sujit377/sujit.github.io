@@ -24,7 +24,7 @@ body{
 main{
 	position: absolute;
 	top: 0; 
-	left: 350px; /* Set this to the width of the navigation frame */
+	left: 300px; /* Set this to the width of the navigation frame */
 	right: 0;
 	bottom: 0;
         Width:800px;
