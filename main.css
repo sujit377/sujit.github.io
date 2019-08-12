@@ -28,7 +28,7 @@ main{
 	right: 0;
 	bottom: 0;
         Width:1000px;
-	overflow:hidden; 
+	overflow:auto; 
 	background: #616D7E;
 }
 
