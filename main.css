@@ -15,7 +15,7 @@ body{
 	top: 0;
 	bottom: 0; 
 	left: 0;
-	width: 350px; /* Width of navigation frame */
+	width: 300px; /* Width of navigation frame */
 	height: 100%;
 	overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
 	background: #76B3FA;
@@ -27,7 +27,7 @@ main{
 	left: 350px; /* Set this to the width of the navigation frame */
 	right: 0;
 	bottom: 0;
-        Width:700px;
+        Width:800px;
 	overflow:hidden; 
 	background: #616D7E;
 }
