@@ -25,6 +25,7 @@ main{
 	left: 350px; /* Set this to the width of the navigation frame */
 	right: 0;
 	bottom: 0;
+        Width:700px;
 	overflow:hidden; 
 	background: #616D7E;
 }
