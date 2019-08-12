@@ -20,12 +20,12 @@ body{
 }
 
 main{
-	position: fixed;
+	position: absolute;
 	top: 0; 
 	left: 350px; /* Set this to the width of the navigation frame */
 	right: 0;
 	bottom: 0;
-	overflow: auto; 
+	overflow:hidden; 
 	background: #616D7E;
 }
 
