@@ -4,8 +4,8 @@ body{
 	overflow: hidden;
 	height: 100%; 
 	max-height: 100%; 
-        width : 100%;
-        min-width : 100%;
+    width : 100%;
+    min-width : 100%;
 	font-family:Sans-serif;
 	line-height: 1.5em;
 }
@@ -100,7 +100,7 @@ nav ul a {
 }
 
 .image{
-	padding:40px 80px;
+	padding:40px 60px;
 }
 
 .heading{
@@ -139,6 +139,8 @@ nav ul a {
 
 .socials{
 	padding-top:40px;
+	position:relative;
+	left:-160px;
 }
 
 .content2{
