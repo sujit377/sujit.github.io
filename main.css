@@ -27,7 +27,7 @@ main{
 	left: 300px; /* Set this to the width of the navigation frame */
 	right: 0;
 	bottom: 0;
-        Width:100%;
+    Width:1100px;
 	overflow:auto; 
 	background: #616D7E;
 }
